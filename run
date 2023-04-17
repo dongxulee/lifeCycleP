@@ -1,0 +1,13 @@
+cd shutDownBoth
+python solveMDP_agentType.py
+sleep 60
+cd .. 
+cd shutDownHousing
+python solveMDP_agentType.py
+sleep 60 
+cd ..
+cd shutDownRetirement 
+python solveMDP_agentType.py
+sleep 60 
+
+echo "current tasks finished" | mail -s "tasks finished" "dli36@stevens.edu"
