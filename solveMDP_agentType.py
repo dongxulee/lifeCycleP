@@ -2,8 +2,8 @@ from solveMDP import *
 from multiprocessing import Pool
 
 AgentType = ["poorHigh", "poorLow", "richHigh", "richLow"]
-Beta_r = [0.02,0.04,0.06,0.08,0.10]
-Gamma = [4.0, 4.5, 5.0, 5.5, 6.0]
+Beta_r = [0.01,0.02,0.04,0.06,0.08,0.10]
+Gamma = [2.0, 2.5]
 
 
 def mapOverType(agentType):
